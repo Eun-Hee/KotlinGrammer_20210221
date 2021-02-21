@@ -53,10 +53,10 @@ class MainActivity : AppCompatActivity() {
 //      그렇지 않다면 => 로그로 "일반문구 입력됨" 출력
             
         if (inputMessage == "안녕하세요") {
-            Log.d( tag: "메인화면", msg: "인사문구 입력됨")
+            Log.d(  "메인화면",  "인사문구 입력됨")
         }
         else {
-            Log.d( tag: "메인화면", msg: "일반문구 입력됨")
+            Log.d(  "메인화면",  "일반문구 입력됨")
         }
         }
 
